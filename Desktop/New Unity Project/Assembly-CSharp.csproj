@@ -314,14 +314,7 @@
      <Compile Include="Assets\Protobuf\protobuf-net\ServiceModel\XmlProtoSerializer.cs" />
      <Compile Include="Assets\Protobuf\protobuf-net\SubItemToken.cs" />
      <Compile Include="Assets\Protobuf\protobuf-net\WireType.cs" />
-     <Compile Include="Assets\RegisterWindow.cs" />
-     <Compile Include="Assets\Script\HTTP.cs" />
-     <Compile Include="Assets\Script\HallWindow.cs" />
-     <Compile Include="Assets\Script\HallWindowMediator.cs" />
-     <Compile Include="Assets\Script\Http_text.cs" />
-     <Compile Include="Assets\Script\LoginWindow.cs" />
-     <Compile Include="Assets\Script\LoginWindowMediator.cs" />
-     <Compile Include="Assets\Script\check_playername.cs" />
+     <Compile Include="Assets\login.cs" />
      <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\NGUI\ReadMe - 3.9.7.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked 1.shader" />
@@ -365,11 +358,17 @@
      <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
      <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
      <None Include="Assets\NGUI\Examples\Resources\Localization.txt" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="pomelo-dotnetClient">
  <HintPath>/Users/mrchen/Desktop/New Unity Project/Assets/Plugins/pomelo-dotnetClient.dll</HintPath>
