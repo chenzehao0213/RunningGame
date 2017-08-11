@@ -1,7 +1,7 @@
-## 这个项目是2015年的时候写的，那个时候还不懂得如何使用git，所以便没有太多的提交操作
-## RunningGame是基于cocos2d-js 引擎， 脚本是js，总得来说难度并不大，比较适合练习js的童鞋
-## 设计知识 html + css + javascript + cocos2d(缓冲池 + 粒子系统 + 雪碧图 + 位图字体)
-## 项目结构
+ 这个项目是2015年的时候写的，那个时候还不懂得如何使用git，所以便没有太多的提交操作<br>
+ RunningGame是基于cocos2d-js 引擎， 脚本是js，总得来说难度并不大，比较适合练习js的童鞋<br>
+ 涉及知识 html + css + javascript + cocos2d(缓冲池 + 粒子系统 + 雪碧图 + 位图字体)<br>
+ 项目结构
 ```
    |—— frameworks                          cocos2d框架
    |—— publish                             项目打包的入口
